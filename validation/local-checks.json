@@ -1,0 +1,57 @@
+{
+  "status": "passed_within_stated_scope",
+  "created_at": "2026-11-01T13:35:23+08:00",
+  "artifact_origin": "POST_HOC",
+  "python": "3.12.14",
+  "checks": [
+    {
+      "check": "included_tables_and_normalized_results",
+      "status": "passed",
+      "rows": 24
+    },
+    {
+      "check": "derived_changes_and_table3_arithmetic",
+      "status": "passed",
+      "rows": 16
+    },
+    {
+      "check": "e1_3b_concordance_and_historical_conflicts",
+      "status": "passed",
+      "matching_scores": 8,
+      "unresolved_conflicts": 2
+    },
+    {
+      "check": "original_manuscript",
+      "status": "passed",
+      "tables": 3,
+      "scope": "Byte identity, title, author and all table cells; not experimental rerun"
+    },
+    {
+      "check": "audit_source_hashes",
+      "status": "passed",
+      "sources": 17,
+      "scope": "Audit-package transcriptions and documents; no E4 execution"
+    },
+    {
+      "check": "figure_hashes_inputs_png_headers_svg_labels",
+      "status": "passed",
+      "files": 4
+    },
+    {
+      "check": "public_text_patterns_and_local_markdown_links",
+      "status": "passed",
+      "text_files": 24
+    }
+  ],
+  "private_sources_supplied": {
+    "final_manuscript": true,
+    "audit_package": true
+  },
+  "not_checked": [
+    "historical training",
+    "checkpoint evaluation",
+    "per-seed statistics recomputation",
+    "data sampling or decontamination",
+    "publication metadata beyond supplied manuscript"
+  ]
+}

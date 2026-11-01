@@ -1,0 +1,3 @@
+model,condition,benchmark,earlier_pass_at_1_pct,earlier_source_id,final_paper_pass_at_1_pct,source_id,gap_pp,status
+Qwen2.5-Coder-1.5B-Instruct,baseline,MBPP+,58.20,E1_EARLY_1P5B,58.73,FINAL_MANUSCRIPT,0.53,unresolved_different_records
+Qwen2.5-Coder-3B-Instruct,baseline,MBPP+,63.20,E1_EARLY_MBPP,63.76,FINAL_MANUSCRIPT,0.56,unresolved_different_records

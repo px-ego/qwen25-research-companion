@@ -1,0 +1,4 @@
+Setting,HumanEval,HumanEval+,MBPP,MBPP+
+Baseline,84.76,78.66,73.81,63.76
+15K fine-tuned,83.54,76.83,77.78,66.93
+Change,-1.22,-1.83,+3.97,+3.17

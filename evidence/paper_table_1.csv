@@ -1,0 +1,15 @@
+Hyperparameter,Value
+Training stage,SFT
+Fine-tuning method,LoRA
+LoRA rank,16
+LoRA target modules,all
+Dialogue template,qwen
+Maximum sequence length,2048
+Per-device train batch size,1
+Gradient accumulation steps,16
+Learning rate,2.0e-5
+Number of epochs,2
+Learning rate scheduler,cosine
+Warmup ratio,0.03
+Precision,bf16
+Gradient checkpointing,true

@@ -1,0 +1,22 @@
+{
+  "artifact_origin": "POST_HOC",
+  "scope": "Rendering manuscript summary data only",
+  "environment": {
+    "python": "3.12.14",
+    "matplotlib": "3.10.7",
+    "os": "Windows"
+  },
+  "inputs_sha256": {
+    "results/paper_results.csv": "0c765f7f26b536b572fd974fa5a076e1ad4c711fb9391774b92ef8b3e7449dd8",
+    "scripts/plot_results.py": "e4042b24a8b1c3e8c3509cb8e69771f3cf6e183dd45056f0612fe7a3a5b3ca8e",
+    "scripts/check_results.py": "ff066f1e474c7223bf866b020122da74d23dcf75f9e27a26be9a078808379ba4",
+    "evidence/paper_table_2.csv": "35307b5bd3c4916b01624cae070930db9117f7333bb5d2c5ac198edc6cf8f823",
+    "evidence/paper_table_3.csv": "aaeec956f56078623e4c065f52f5b1f7350e39c3402c17053f1d555709dcd318"
+  },
+  "outputs_sha256": {
+    "figures/1p5b_data_scale.png": "03b0d85de665c3ca712b3f42130f690296bb4c5a66d9e54ccd4ab6f6888abd71",
+    "figures/1p5b_data_scale.svg": "14eb69a82ffa4d5cd38ccb545ee2c378bfde1f461a4c2a2fb20a943dcef59e96",
+    "figures/3b_before_after.png": "87b1332a8461e271f43665a842123ffcf94e0545efc97dbc8982334d9720ad14",
+    "figures/3b_before_after.svg": "a478891e480822db49da11729cba624a44930f279034d8a4510a1033ac821a28"
+  }
+}

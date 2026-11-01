@@ -1,0 +1,173 @@
+{
+  "artifact_origin": "POST_HOC",
+  "prepared_on": "2026-11-01",
+  "hash_scope": "Hashes identify supplied source bytes, not experiment authenticity or completeness.",
+  "paper_metadata": {
+    "title": "Understanding instruction fine-tuning for code generation models: A study on Qwen2.5-Coder",
+    "author_as_printed": "Pan Xu",
+    "conference": null,
+    "publication_year": null,
+    "doi": null,
+    "official_publication_url": null,
+    "publication_status": "unconfirmed"
+  },
+  "sources": [
+    {
+      "source_id": "FINAL_MANUSCRIPT",
+      "evidence_class": "E3",
+      "location_kind": "private_manuscript",
+      "reference": "Author-provided final manuscript (DOCX)",
+      "bytes": 246738,
+      "sha256": "4a66189d09603d6be2cd632f8fdc536d1ee603dcfeeed2383ff62f70bc981a08",
+      "included_tables": [
+        "evidence/paper_table_1.csv",
+        "evidence/paper_table_2.csv",
+        "evidence/paper_table_3.csv"
+      ],
+      "scope": "Manuscript-reported method and aggregate results; not native execution evidence"
+    },
+    {
+      "source_id": "AUDIT_README",
+      "evidence_class": "POST_HOC_AUDIT",
+      "location_kind": "audit_relative",
+      "reference": "README.md",
+      "bytes": 1354,
+      "sha256": "23b1c57df7be828aa57bf80f9f1b15a1a80024708601575b6d37c9118359f781"
+    },
+    {
+      "source_id": "AUDIT_ASSET_MANIFEST",
+      "evidence_class": "POST_HOC_AUDIT",
+      "location_kind": "audit_relative",
+      "reference": "audit/asset-manifest.md",
+      "bytes": 5963,
+      "sha256": "86ea02aeecca828abf1921d8230875b678b0a43508416e360d8142096876190c"
+    },
+    {
+      "source_id": "AUDIT_MISSING_ARTIFACTS",
+      "evidence_class": "POST_HOC_AUDIT",
+      "location_kind": "audit_relative",
+      "reference": "audit/missing-artifacts.md",
+      "bytes": 2626,
+      "sha256": "882a18127f580ac8d03499d874ab8e652f2deaf90f6e3c03358bde04072553be"
+    },
+    {
+      "source_id": "AUDIT_CHRONOLOGY",
+      "evidence_class": "POST_HOC_AUDIT",
+      "location_kind": "audit_relative",
+      "reference": "audit/chronology.md",
+      "bytes": 2300,
+      "sha256": "0d959bbc7f176ce1ee19604e65ec9d7b36a51b631fb1e9f6f60a82bb1ed5bd93"
+    },
+    {
+      "source_id": "E1_CONFIG_LISTING",
+      "evidence_class": "E1",
+      "location_kind": "audit_relative",
+      "reference": "recovered/logs/1p5b_and_3b_config_listing_USER_E1.txt",
+      "bytes": 1005,
+      "sha256": "6b579024ebb2d2349320a181d4e7bc2be8d80e6ce3c9cd2a64dc2d07c6a20f30"
+    },
+    {
+      "source_id": "E1_PARTIAL_CONFIG",
+      "evidence_class": "E1/E2_PARTIAL",
+      "location_kind": "audit_relative",
+      "reference": "recovered/logs/1p5b_config_grep_USER_E1.txt",
+      "bytes": 1858,
+      "sha256": "27afa5c85b99acfe1e2595a486a93cd6cb4d40c16aee8cbb24af9783ea47967d"
+    },
+    {
+      "source_id": "E1_3B_TERMINAL",
+      "evidence_class": "E1",
+      "location_kind": "audit_relative",
+      "reference": "recovered/logs/3b_pass1_terminal_USER_E1.txt",
+      "bytes": 289,
+      "sha256": "67114d4041726cc49e9e3f5ef0661d98a79cde6d913db40875ff6e913e369c10",
+      "included_copy": "evidence/e1_3b_terminal_transcription.txt"
+    },
+    {
+      "source_id": "E1_EARLY_MBPP",
+      "evidence_class": "E1",
+      "location_kind": "audit_relative",
+      "reference": "recovered/logs/mbpp_early_report_USER_E1.txt",
+      "bytes": 73,
+      "sha256": "47d390c7e94226108076dbca6e47ee5ad7a354a9c81c19dd9fc0a93b1364ebb8",
+      "included_copy": "evidence/e1_early_mbpp_transcription.txt"
+    },
+    {
+      "source_id": "E1_EARLY_1P5B",
+      "evidence_class": "E1",
+      "location_kind": "audit_relative",
+      "reference": "recovered/results/early_screenshot_E1.csv",
+      "bytes": 399,
+      "sha256": "281136fc62f5448c16aec3f7de924348b6623e28bc5455443267804348db1d23"
+    },
+    {
+      "source_id": "E1_3B_RESULTS",
+      "evidence_class": "E1",
+      "location_kind": "audit_relative",
+      "reference": "recovered/results/3b_original_terminal_E1.csv",
+      "bytes": 149,
+      "sha256": "93e3bac461df7aaffca0b51a3af437ecb235a6f7870d1522968fddc5fc26f209"
+    },
+    {
+      "source_id": "E3_AUDIT_PAPER_TABLE2",
+      "evidence_class": "E3",
+      "location_kind": "audit_relative",
+      "reference": "recovered/results/later_paper_table2_E_DOCUMENT.csv",
+      "bytes": 474,
+      "sha256": "949daa171a1a04d0fbdab7c6a9c1f39e8b03c7b581efcca0b99ae30bbbd850bf"
+    },
+    {
+      "source_id": "E3_ENVIRONMENT_NOTE",
+      "evidence_class": "E3",
+      "location_kind": "audit_relative",
+      "reference": "recovered/sources/experiment_environment_note_E3.txt",
+      "bytes": 3143,
+      "sha256": "d68d07871f9f737ad7115eafd979a9f68f2b5786f2403686ed63b82855ae7bd5"
+    },
+    {
+      "source_id": "E4_3B_TRAIN_CONFIG",
+      "evidence_class": "E4",
+      "location_kind": "audit_relative",
+      "reference": "recovered/configs/qwen25_coder3b_magicoder_python_sft_15k_ASSISTANT_PROPOSAL_E4.yaml",
+      "bytes": 667,
+      "sha256": "61ba369de703e1012fa72ef7017819d8e8221030722f587328fcedc952b29f50",
+      "execution_status": "Not established by audit; not executed for this companion"
+    },
+    {
+      "source_id": "E4_3B_EXPORT_CONFIG",
+      "evidence_class": "E4",
+      "location_kind": "audit_relative",
+      "reference": "recovered/configs/qwen25_coder3b_magicoder_python_export_15k_ASSISTANT_PROPOSAL_E4.yaml",
+      "bytes": 348,
+      "sha256": "07af308355f64eb7ad88c95df54846ad9e2eb78bb2ce03cc7b4479ea7f03402f",
+      "execution_status": "Not established by audit; not executed for this companion"
+    },
+    {
+      "source_id": "E4_3B_EVAL_COMMANDS",
+      "evidence_class": "E4",
+      "location_kind": "audit_relative",
+      "reference": "recovered/scripts/3b_15k_eval_commands_ASSISTANT_PROPOSAL_E4.sh",
+      "bytes": 1643,
+      "sha256": "a7ec75ad54fde118b45286ce37b684cff00244f621ba6d7d3abaf56b014e2a1d",
+      "execution_status": "Not established by audit; not executed for this companion"
+    },
+    {
+      "source_id": "E4_SEED_CONFIG_GENERATOR",
+      "evidence_class": "E4",
+      "location_kind": "audit_relative",
+      "reference": "recovered/scripts/create_1p5b_seed_configs_ASSISTANT_PROPOSAL_E4.py",
+      "bytes": 2030,
+      "sha256": "bccbc5d7f8df7d67fabb7cd7b33a37334d5c72e2ed10d6ef101a7cb6c5da327e",
+      "execution_status": "Not established by audit; not executed for this companion"
+    },
+    {
+      "source_id": "E4_SEED_EVAL_COMMANDS",
+      "evidence_class": "E4",
+      "location_kind": "audit_relative",
+      "reference": "recovered/scripts/run_eval_1p5b_seed_experiments_ASSISTANT_PROPOSAL_E4.sh",
+      "bytes": 1850,
+      "sha256": "8f8af41cf284e9d2d78ae92f230530951ca10e4df4ee277b3d48bdb14f1e879c",
+      "execution_status": "Not established by audit; not executed for this companion"
+    }
+  ]
+}

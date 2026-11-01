@@ -1,0 +1,19 @@
+=== 3B raw HumanEval ===
+total: 164
+base pass@1: 84.76
+plus pass@1: 78.66
+
+=== 3B raw MBPP ===
+total: 378
+base pass@1: 73.81
+plus pass@1: 63.76
+
+=== 3B 15K HumanEval ===
+total: 164
+base pass@1: 83.54
+plus pass@1: 76.83
+
+=== 3B 15K MBPP ===
+total: 378
+base pass@1: 77.78
+plus pass@1: 66.93
